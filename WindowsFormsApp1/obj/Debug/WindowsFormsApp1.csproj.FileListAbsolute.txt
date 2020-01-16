@@ -1,0 +1,36 @@
+C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Port.resources
+C:\Users\tpcm1\Desktop\WindowsFormsApp1\bin\Debug\WindowsBase.dll
+C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\tpcm1\Desktop\WindowsFormsApp1\bin\Debug\Ultrasonik Radar.exe.config
+C:\Users\tpcm1\Desktop\WindowsFormsApp1\bin\Debug\Ultrasonik Radar.exe
+C:\Users\tpcm1\Desktop\WindowsFormsApp1\bin\Debug\Ultrasonik Radar.pdb
+C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Debug\UltrasonikRadar.Properties.Resources.resources
+C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Debug\Ultrasonik Radar.exe
+C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Debug\Ultrasonik Radar.pdb
+F:\WindowsFormsApp1\bin\Debug\Ultrasonik Radar.exe.config
+F:\WindowsFormsApp1\bin\Debug\Ultrasonik Radar.exe
+F:\WindowsFormsApp1\bin\Debug\Ultrasonik Radar.pdb
+F:\WindowsFormsApp1\bin\Debug\WindowsBase.dll
+F:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+F:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+F:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Port.resources
+F:\WindowsFormsApp1\obj\Debug\UltrasonikRadar.Properties.Resources.resources
+F:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+F:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+F:\WindowsFormsApp1\obj\Debug\Ultrasonik Radar.exe
+F:\WindowsFormsApp1\obj\Debug\Ultrasonik Radar.pdb
+E:\WindowsFormsApp1\bin\Debug\Ultrasonik Radar.exe.config
+E:\WindowsFormsApp1\bin\Debug\Ultrasonik Radar.exe
+E:\WindowsFormsApp1\bin\Debug\Ultrasonik Radar.pdb
+E:\WindowsFormsApp1\bin\Debug\WindowsBase.dll
+E:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+E:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Port.resources
+E:\WindowsFormsApp1\obj\Debug\UltrasonikRadar.Properties.Resources.resources
+E:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+E:\WindowsFormsApp1\obj\Debug\Ultrasonik Radar.exe
+E:\WindowsFormsApp1\obj\Debug\Ultrasonik Radar.pdb
