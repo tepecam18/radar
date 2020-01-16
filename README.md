@@ -1,2 +1,2 @@
 # radar
-<p>Arduino, visul studio</p> c# form radar uygulaması
+Arduino, visul studio c# form radar uygulaması
