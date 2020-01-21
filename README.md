@@ -6,5 +6,5 @@ Arduino, visul studio c# form radar uygulaması
 <img src="img/Slayt4.PNG">
 <img src="img/Slayt5.PNG">
 <img src="img/Slayt6.PNG">
-https://youtu.be/fSM3n66OcfE
+[![IMAGE ALT TEXT HERE](img/Slayt2.PNG)](https://youtu.be/fSM3n66OcfE)
 <img src="img/Resim1.jpg">
