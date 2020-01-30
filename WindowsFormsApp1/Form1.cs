@@ -36,9 +36,8 @@ namespace WindowsFormsApp1
 
         Thread th1;
 
-
+        double sayı = 1;
         int hipotenüs = 700;
-        int milliseconds = 100;
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -74,23 +73,6 @@ namespace WindowsFormsApp1
         {
             th1 = new Thread(RadarBaşlat);
             th1.Start();
-        }
-
-        void ThreadDeneme()
-        {
-            while (true)
-            {
-                for (int i = 10; i < 170; i++)
-                {
-                    RadarCiz(i, 40);
-                    Thread.Sleep(milliseconds);
-                }
-                for (int i = 170; i > 10; i--)
-                {
-                    RadarCiz(i, 0);
-                    Thread.Sleep(milliseconds);
-                }
-            }
         }
 
         void Bitti()
@@ -194,8 +176,8 @@ namespace WindowsFormsApp1
                     Bitti();
                 }
             }
-        }       
-        
+        }
+
         private void canvas_Paint(object sender, PaintEventArgs e)
         {
             canvasTriger();
@@ -220,7 +202,6 @@ namespace WindowsFormsApp1
 
         Point NoktaBul(int acı)
         {
-            double kenar = KenarBul(acı);
             int x = Convert.ToInt32(canvas.Width / 2 + Math.Cos(DereceToRadian(acı)) * hipotenüs);
             int y = Convert.ToInt32(canvas.Height - Math.Sin(DereceToRadian(acı)) * hipotenüs);
             Point point = new Point(x, y);
@@ -230,7 +211,7 @@ namespace WindowsFormsApp1
 
         void RadarCiz(int acı, int uzaklık)
         {
-            double sayı = 0;
+
             switch (uzaklık / 10)
             {
                 case 0:
@@ -254,28 +235,23 @@ namespace WindowsFormsApp1
             }
 
             Point point1 = new Point(canvas.Width / 2, canvas.Height);
-            double kenar = KenarBul(acı);
-            float x1 = (float)(canvas.Width / 2 + Math.Cos(DereceToRadian(acı)) * hipotenüs);
-            float y1 = (float)(canvas.Height - Math.Sin(DereceToRadian(acı)) * hipotenüs);
-            float x2 = 0, y2 = 0;
-            x2 = (float)(canvas.Width / 2 + Math.Cos(DereceToRadian(acı)) * hipotenüs / sayı);
-            y2 = (float)(canvas.Height - Math.Sin(DereceToRadian(acı)) * hipotenüs / sayı);
-            grafik.DrawLine(Bos, canvas.Width / 2, canvas.Height, x1, y1);
-            grafik.DrawLine(Dolu, x2, y2, x1, y1);
+            Point point2 = NoktaBul(acı);
+            Point point3 = new Point(
+                Convert.ToInt32(canvas.Width / 2 + Math.Cos(DereceToRadian(acı)) * hipotenüs / sayı), 
+                Convert.ToInt32(canvas.Height - Math.Sin(DereceToRadian(acı)) * hipotenüs / sayı));
+
+            grafik.DrawLine(Bos, point1, point2);
+            grafik.DrawLine(Dolu, point3, point2);
+
             canvasTriger();
-            grafik.FillRectangle(fırca, 0, 0, 3000, 3000);
+
+            grafik.FillRectangle(fırca, 0, 0, 1350, 700);
         }
 
         void YuvarlakCiz(int x)
         {
             Rectangle rect = new Rectangle(23 + x, 40 + x, (1300 - (x * 2)), (630 - x) * 2);
             grafik.DrawArc(yesil, rect, 170, 200);
-        }
-
-        double KenarBul(int _acı)
-        {
-            double kenar = Math.Pow(Math.Pow(hipotenüs, 2) * 2 - (2 * Math.Pow(hipotenüs, 2) * Math.Cos(DereceToRadian(_acı))), 0.5);
-            return kenar;
         }
 
         double DereceToRadian(double x)
@@ -290,10 +266,7 @@ namespace WindowsFormsApp1
                 serialPort.Write("QQQQQ");
                 serialPort.Close();
             }
-            catch (Exception)
-            {
-
-            }
+            catch (Exception) { }
         }
     }
 }

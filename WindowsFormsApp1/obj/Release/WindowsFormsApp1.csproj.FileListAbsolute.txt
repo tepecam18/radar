@@ -1,12 +1,12 @@
-C:\Users\tpcm1\Desktop\WindowsFormsApp1\bin\Release\WindowsFormsApp1.exe.config
-C:\Users\tpcm1\Desktop\WindowsFormsApp1\bin\Release\WindowsFormsApp1.exe
-C:\Users\tpcm1\Desktop\WindowsFormsApp1\bin\Release\WindowsFormsApp1.pdb
 C:\Users\tpcm1\Desktop\WindowsFormsApp1\bin\Release\WindowsBase.dll
 C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csprojAssemblyReference.cache
 C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Form1.resources
 C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Port.resources
-C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Release\WindowsFormsApp1.Properties.Resources.resources
 C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.GenerateResource.cache
 C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Release\WindowsFormsApp1.csproj.CopyComplete
-C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Release\WindowsFormsApp1.exe
-C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Release\WindowsFormsApp1.pdb
+C:\Users\tpcm1\Desktop\WindowsFormsApp1\bin\Release\Ultrasonik Radar.exe.config
+C:\Users\tpcm1\Desktop\WindowsFormsApp1\bin\Release\Ultrasonik Radar.exe
+C:\Users\tpcm1\Desktop\WindowsFormsApp1\bin\Release\Ultrasonik Radar.pdb
+C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Release\UltrasonikRadar.Properties.Resources.resources
+C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Release\Ultrasonik Radar.exe
+C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Release\Ultrasonik Radar.pdb

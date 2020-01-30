@@ -1,4 +1,3 @@
-C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
 C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
 C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
 C:\Users\tpcm1\Desktop\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Port.resources
